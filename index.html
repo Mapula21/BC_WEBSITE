@@ -3,9 +3,608 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Belgium Campus ITversity | Its the way we are wired</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Hello, World!</p>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">
+                <div class="logo-icon">
+                    <span class="logo-bc">BC</span>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-main">Belgium Campus</span>
+                    <span class="logo-sub">ITversity</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#programs" class="nav-link">Programs</a></li>
+                <li><a href="#campus" class="nav-link">Campus Life</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Apply Now</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="geometric-shape shape-1"></div>
+            <div class="geometric-shape shape-2"></div>
+            <div class="geometric-shape shape-3"></div>
+            <div class="geometric-shape shape-4"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge reveal">Empowering IT Excellence Since 2008</div>
+            <h1 class="hero-title">
+                <span class="reveal" style="--delay: 0.1s">Shape the</span>
+                <span class="hero-highlight reveal" style="--delay: 0.2s">Future of IT</span>
+            </h1>
+            <p class="hero-subtitle reveal" style="--delay: 0.3s">
+                Belgium Campus ITversity is South Africa's leading specialised IT institution. 
+                We equip students with cutting-edge skills for the digital world.
+            </p>
+            <div class="hero-buttons reveal" style="--delay: 0.4s">
+                <a href="#programs" class="btn btn-primary">Explore Programs</a>
+                <a href="#about" class="btn btn-outline">Learn More</a>
+            </div>
+            <div class="hero-stats reveal" style="--delay: 0.5s">
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-target="95">0</span><span class="hero-stat-suffix">%</span>
+                    <span class="hero-stat-label">Employment Rate</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-target="3000">0</span><span class="hero-stat-suffix">+</span>
+                    <span class="hero-stat-label">Graduates Placed</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-target="15">0</span><span class="hero-stat-suffix">+</span>
+                    <span class="hero-stat-label">Years of Excellence</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-tag reveal">Who We Are</span>
+                    <h2 class="section-title reveal">Belgium Campus <span class="highlight">ITversity</span></h2>
+                    <p class="about-text reveal">
+                        Belgium Campus ITversity is a private higher education institution dedicated exclusively 
+                        to Information Technology. With campuses across South Africa, we provide students with 
+                        industry-relevant qualifications that open doors to thriving careers.
+                    </p>
+                    <p class="about-text reveal">
+                        Our programmes are designed in collaboration with industry leaders to ensure our graduates 
+                        are workplace-ready from day one. From Software Engineering to Cyber Security, we offer 
+                        qualifications that matter in today's digital economy.
+                    </p>
+                    <div class="about-features reveal">
+                        <div class="about-feature">
+                            <div class="feature-icon red-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Accredited Programmes</strong>
+                                <span>QCTO & CHE aligned</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon yellow-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                            </div>
+                            <div>
+                                <strong>Work-Integrated Learning</strong>
+                                <span>Real-world experience</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon red-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </div>
+                            <div>
+                                <strong>Industry Partnerships</strong>
+                                <span>Top tech companies</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon yellow-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            </div>
+                            <div>
+                                <strong>Flexible Learning</strong>
+                                <span>Full-time & part-time options</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual reveal">
+                    <div class="about-card">
+                        <div class="about-card-img">
+                            <div class="card-pattern">
+                                <div class="pattern-block"></div>
+                                <div class="pattern-block dark"></div>
+                                <div class="pattern-block red"></div>
+                                <div class="pattern-block"></div>
+                                <div class="pattern-block dark"></div>
+                                <div class="pattern-block red"></div>
+                            </div>
+                            <div class="card-overlay-text">
+                                <span class="card-year">Est.</span>
+                                <span class="card-year-number">2008</span>
+                            </div>
+                        </div>
+                        <div class="about-card-stats">
+                            <div class="mini-stat">
+                                <span class="mini-stat-num">6+</span>
+                                <span class="mini-stat-label">Campuses</span>
+                            </div>
+                            <div class="mini-stat">
+                                <span class="mini-stat-num">15+</span>
+                                <span class="mini-stat-label">Programmes</span>
+                            </div>
+                            <div class="mini-stat">
+                                <span class="mini-stat-num">100+</span>
+                                <span class="mini-stat-label">Lecturers</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="programs" id="programs">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">Our Programmes</span>
+                <h2 class="section-title reveal">IT Programmes That <span class="highlight">Launch Careers</span></h2>
+                <p class="section-desc reveal">
+                    From diplomas to advanced diplomas, our programmes are built for the industry demands of tomorrow.
+                </p>
+            </div>
+            <div class="programs-grid">
+
+                <div class="program-card reveal" style="--delay: 0s">
+                    <div class="program-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    </div>
+                    <span class="program-level">Diploma</span>
+                    <h3>Software Development</h3>
+                    <p>Master modern programming languages, frameworks, and software engineering principles to build innovative solutions.</p>
+                    <ul class="program-highlights">
+                        <li>Full-Stack Development</li>
+                        <li>Cloud Computing</li>
+                        <li>Agile Methodologies</li>
+                    </ul>
+                    <a href="#contact" class="program-link">Learn More
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                </div>
+
+                <div class="program-card featured reveal" style="--delay: 0.1s">
+                    <div class="program-badge">Most Popular</div>
+                    <div class="program-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <span class="program-level">Diploma / Advanced Diploma</span>
+                    <h3>Cyber Security</h3>
+                    <p>Defend the digital world. Learn ethical hacking, network security, and information security management.</p>
+                    <ul class="program-highlights">
+                        <li>Ethical Hacking</li>
+                        <li>Network Defence</li>
+                        <li>Digital Forensics</li>
+                    </ul>
+                    <a href="#contact" class="program-link">Learn More
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                </div>
+
+                <div class="program-card reveal" style="--delay: 0.2s">
+                    <div class="program-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                    </div>
+                    <span class="program-level">Diploma</span>
+                    <h3>Data Science & Analytics</h3>
+                    <p>Harness the power of data. Learn machine learning, statistical analysis, and data visualisation techniques.</p>
+                    <ul class="program-highlights">
+                        <li>Machine Learning</li>
+                        <li>Big Data Analytics</li>
+                        <li>AI Fundamentals</li>
+                    </ul>
+                    <a href="#contact" class="program-link">Learn More
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                </div>
+
+                <div class="program-card reveal" style="--delay: 0.3s">
+                    <div class="program-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <span class="program-level">Diploma</span>
+                    <h3>Network & Systems</h3>
+                    <p>Build and manage robust IT infrastructures. From networking to systems administration and cloud platforms.</p>
+                    <ul class="program-highlights">
+                        <li>Network Engineering</li>
+                        <li>Cloud Infrastructure</li>
+                        <li>Server Administration</li>
+                    </ul>
+                    <a href="#contact" class="program-link">Learn More
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                </div>
+
+                <div class="program-card reveal" style="--delay: 0.4s">
+                    <div class="program-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    </div>
+                    <span class="program-level">Diploma / Advanced Diploma</span>
+                    <h3>Information Technology</h3>
+                    <p>A comprehensive IT qualification covering systems analysis, project management, and enterprise solutions.</p>
+                    <ul class="program-highlights">
+                        <li>Systems Analysis</li>
+                        <li>IT Project Management</li>
+                        <li>Enterprise Solutions</li>
+                    </ul>
+                    <a href="#contact" class="program-link">Learn More
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                </div>
+
+                <div class="program-card reveal" style="--delay: 0.5s">
+                    <div class="program-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+                    </div>
+                    <span class="program-level">Advanced Diploma</span>
+                    <h3>AI & Intelligent Systems</h3>
+                    <p>Step into the future. Study artificial intelligence, robotics, natural language processing, and deep learning.</p>
+                    <ul class="program-highlights">
+                        <li>Deep Learning</li>
+                        <li>Natural Language Processing</li>
+                        <li>Computer Vision</li>
+                    </ul>
+                    <a href="#contact" class="program-link">Learn More
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section" id="stats">
+        <div class="stats-bg">
+            <div class="stats-shape stats-shape-1"></div>
+            <div class="stats-shape stats-shape-2"></div>
+        </div>
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal">
+                    <div class="stat-number"><span data-target="95">0</span>%</div>
+                    <div class="stat-label">Employment Rate</div>
+                    <div class="stat-desc">of graduates employed within 6 months</div>
+                </div>
+                <div class="stat-item reveal" style="--delay: 0.1s">
+                    <div class="stat-number"><span data-target="3000">0</span>+</div>
+                    <div class="stat-label">Graduates</div>
+                    <div class="stat-desc">successfully placed in the IT industry</div>
+                </div>
+                <div class="stat-item reveal" style="--delay: 0.2s">
+                    <div class="stat-number"><span data-target="200">0</span>+</div>
+                    <div class="stat-label">Employer Partners</div>
+                    <div class="stat-desc">companies hiring our graduates</div>
+                </div>
+                <div class="stat-item reveal" style="--delay: 0.3s">
+                    <div class="stat-number"><span data-target="6">0</span></div>
+                    <div class="stat-label">Campus Locations</div>
+                    <div class="stat-desc">across South Africa</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus" id="campus">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">Campus Life</span>
+                <h2 class="section-title reveal">Experience Life at <span class="highlight">Belgium Campus</span></h2>
+                <p class="section-desc reveal">
+                    Beyond academics, we foster a vibrant community that nurtures personal growth, creativity, and lasting connections.
+                </p>
+            </div>
+            <div class="campus-grid">
+                <div class="campus-card reveal" style="--delay: 0s">
+                    <div class="campus-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
+                    <h3>State-of-the-Art Labs</h3>
+                    <p>Work with the latest hardware and software in our purpose-built computer laboratories and maker spaces.</p>
+                </div>
+                <div class="campus-card reveal" style="--delay: 0.1s">
+                    <div class="campus-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <h3>Student Organisations</h3>
+                    <p>Join tech clubs, hackathon teams, gaming societies, and community outreach groups that match your passion.</p>
+                </div>
+                <div class="campus-card reveal" style="--delay: 0.2s">
+                    <div class="campus-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3>Mentorship Programme</h3>
+                    <p>Receive guidance from industry professionals and academic mentors dedicated to your career success.</p>
+                </div>
+                <div class="campus-card reveal" style="--delay: 0.3s">
+                    <div class="campus-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+                    </div>
+                    <h3>Hackathons & Competitions</h3>
+                    <p>Test your skills in regular coding competitions, innovation challenges, and inter-campus tournaments.</p>
+                </div>
+                <div class="campus-card reveal" style="--delay: 0.4s">
+                    <div class="campus-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                    </div>
+                    <h3>Wellness & Support</h3>
+                    <p>Access counselling services, academic support, and wellness programmes to keep you at your best.</p>
+                </div>
+                <div class="campus-card reveal" style="--delay: 0.5s">
+                    <div class="campus-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                    </div>
+                    <h3>Career Services</h3>
+                    <p>CV workshops, interview prep, and exclusive networking events connecting you to top employers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">Testimonials</span>
+                <h2 class="section-title reveal">What Our <span class="highlight">Students Say</span></h2>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card reveal" style="--delay: 0s">
+                    <div class="testimonial-quote">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" opacity="0.15"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                    </div>
+                    <p>"Belgium Campus changed my life. I came in with zero coding knowledge, and within 18 months I was placed at a top tech firm. The lecturers genuinely care about your success."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background-color: #EF3340;">TL</div>
+                        <div>
+                            <strong>Thabo Lekota</strong>
+                            <span>Software Developer at Microsoft</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal" style="--delay: 0.1s">
+                    <div class="testimonial-quote">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" opacity="0.15"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                    </div>
+                    <p>"The Cyber Security programme was intense and practical. The labs gave me hands-on experience that I use every day in my current role. Best decision I ever made."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background-color: #FDDA24; color: #000;">NP</div>
+                        <div>
+                            <strong>Naledi Phiri</strong>
+                            <span>Cyber Security Analyst at Dimension Data</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal" style="--delay: 0.2s">
+                    <div class="testimonial-quote">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" opacity="0.15"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                    </div>
+                    <p>"As a working adult, the part-time option allowed me to upskill without leaving my job. The career services team helped me transition into a better role within months."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background-color: #000;">DM</div>
+                        <div>
+                            <strong>Daniel Mokoena</strong>
+                            <span>IT Project Manager at Vodacom</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-box reveal">
+                <div class="cta-content">
+                    <h2>Ready to Start Your IT Career?</h2>
+                    <p>Applications are now open for 2026. Secure your spot at South Africa's leading IT institution.</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary btn-lg">Apply Now</a>
+                    <a href="#programs" class="btn btn-outline-light btn-lg">View Programmes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag reveal">Get In Touch</span>
+                    <h2 class="section-title reveal">We'd Love to <span class="highlight">Hear From You</span></h2>
+                    <p class="contact-desc reveal">
+                        Have questions about our programmes, admissions, or campus life? Reach out to us and we'll get back to you shortly.
+                    </p>
+                    <div class="contact-details reveal">
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div>
+                                <strong>Campuses Nationwide</strong>
+                                <span>Pretoria, Johannesburg, Cape Town, Durban, Bloemfontein, Polokwane</span>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <div>
+                                <strong>Call Us</strong>
+                                <span>0861 222 567</span>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </div>
+                            <div>
+                                <strong>Email Us</strong>
+                                <span>info@belgiumcampus.ac.za</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper reveal">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" placeholder="John" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" placeholder="Doe" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="+27 00 000 0000">
+                        </div>
+                        <div class="form-group">
+                            <label for="programme">Programme of Interest</label>
+                            <select id="programme" required>
+                                <option value="" disabled selected>Select a programme</option>
+                                <option>Software Development</option>
+                                <option>Cyber Security</option>
+                                <option>Data Science & Analytics</option>
+                                <option>Network & Systems</option>
+                                <option>Information Technology</option>
+                                <option>AI & Intelligent Systems</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="4" placeholder="Tell us about yourself and what you'd like to study..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Submit Enquiry
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                        </button>
+                        <div class="form-success" id="formSuccess">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            <span>Thank you! We'll be in touch soon.</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#hero" class="logo">
+                        <div class="logo-icon">
+                            <span class="logo-bc">BC</span>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">Belgium Campus</span>
+                            <span class="logo-sub">ITversity</span>
+                        </div>
+                    </a>
+                    <p>Empowering the next generation of IT professionals since 2008. Accredited, industry-aligned, and career-focused.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                        <a href="#" aria-label="Twitter"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+                        <a href="#" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        <a href="#" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.43z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#000"/></svg></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#programs">Programmes</a></li>
+                        <li><a href="#campus">Campus Life</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#contact">Apply Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Programmes</h4>
+                    <ul>
+                        <li><a href="#programs">Software Development</a></li>
+                        <li><a href="#programs">Cyber Security</a></li>
+                        <li><a href="#programs">Data Science</a></li>
+                        <li><a href="#programs">Network & Systems</a></li>
+                        <li><a href="#programs">AI & Intelligent Systems</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Campuses</h4>
+                    <ul>
+                        <li><a href="#contact">Pretoria</a></li>
+                        <li><a href="#contact">Johannesburg</a></li>
+                        <li><a href="#contact">Cape Town</a></li>
+                        <li><a href="#contact">Durban</a></li>
+                        <li><a href="#contact">Bloemfontein</a></li>
+                        <li><a href="#contact">Polokwane</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Belgium Campus ITversity. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">POPIA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <script src="script.js"></script>
 </body>
 </html>
